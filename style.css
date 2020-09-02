@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url(9bdf40befda56aded47d3d00bffed831-4.jpg);
+    background-size: 100vw;
+    background: 100% auto;
+}
+
+#img img {
+    padding-left: 50px;
+    margin-top: 40vh;
+}
+
+#aoba {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aoba h1 {
+    color: #000;
+    text-shadow: 1px 1px 1px #999;
+    font-size: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+#mov {
+    text-align: center;
+    margin-top: 40vw;
+}
+
+#mov h2 {
+    margin-bottom: 3vw;
+}
+
+nav {
+    margin-top: 450px;
+    overflow: hidden;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+ul li a img {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+
+
+a {
+    text-align: center;
+    display: block;
+    margin: 16px auto;
+    color: #fff;
+    text-decoration: none;
+    padding: 30px 30px auto;
+}
+
+
+
+#rec a {
+    text-align: center;
+    display: block;
+    margin: 30px auto;
+    width: 180px;
+    color: #000;
+    text-decoration: none;
+    margin-top: 100px;
+    font-size: 30px;
+    border: solid #000 0.1px;
+}
+
+nav a {
+    font-size: 16px;
+    display: block;
+    text-decoration: none;
+    color: #e63;
+    margin: 14px 16px 0px;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    color: ;
+    font-family: 'Raleway', sans-serif;
+}
+
+#profile {
+    margin-top: 300px;
+}
+
+#mov {
+    font-size: 30px;
+    line-height: 50px;
+}
+
+h3 {
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #000;
+}
+
+#MyFavorite{
+    margin-top: 20vw;
+}
+
+#sibeder {
+    float: left;
+    width: 280px;
+    margin: 0px 12px;
+    background: #fff;
+    padding: 8px;
+}
+
+#sibeder img {
+    margin-bottom: 16px;
+}
+
+#sibeder p {
+    font-size: 16px;
+}
+
+#wrepper {
+    float: left;
+}
+
+
+ul {
+    list-style: none;
+}
+
+#main {
+    float: left;
+}
+
+#main img {
+    width: 700px;
+}
+
+instagram-media {
+    margin: 0 auto;
+}
+
+.ins {
+    display: flex;
+    justify-content: center;
+}
+
+#rec {
+    margin-top: 90px;
+    margin-bottom: 160px;
+}
+
+#MyFavorite h2 {
+    padding-top: 200px;
+}
+
+#MyFavorite h3 {
+    padding-top: 50px;
+}
+
+.caption_box {
+    position: relative;
+
+    margin: 40px;
+    padding: 20px;
+    border: 1px solid black;
+    z-index: -100;
+}
+
+.caption_box .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    font-size: 1em;
+    padding: 0 1em;
+    margin: 0;
+    background-color: white;
+    transform: translateY(-50%) translateX(1em);
+}
+
+#osu h3 {
+    padding-top: 150px;
+    border-bottom: 0.5px solid;
+}
+
+a {
+    color: black;
+}
+
+#top {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    width: 100px;
+    height: 40px;
+    color: #000;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 30px;
+    border: solid #000 0.3px;
+}
+
+@media all and (max-width:480px) {
+
+    #aoba h1 {
+        color: #000;
+        text-shadow: 1px 1px 1px #999;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+
+    }
+}
