@@ -126,7 +126,7 @@ h3 {
     color: #000;
 }
 
-#MyFavorite{
+#MyFavorite {
     margin-top: 20vw;
 }
 
@@ -239,4 +239,22 @@ a {
         text-align: center;
 
     }
+}
+
+#last {
+    background-color: white;
+    margin-top: 3vw;
+}
+
+#last h2 {
+    font-size: 30px;
+}
+
+#last h3 {
+    font-size: 18px;
+    line-height: 3vw;
+}
+
+#hu {
+    background-color: gainsboro;
 }
